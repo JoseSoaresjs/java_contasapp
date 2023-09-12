@@ -1,5 +1,6 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -8,9 +9,11 @@
 <meta charset="ISO-8859-1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ContasApp</title>
+
 <!-- Folhas de estilo CSS -->
 <link rel="stylesheet" href="../resources/css/bootstrap.min.css" type="text/css" />
 <link rel="stylesheet" href="../resources/css/jquery.dataTables.min.css" type="text/css" />
+
 <!-- estilo CSS para as mensagens de erro de validação -->
 <style>
 	label.error { color: #d9534f; } /* cor do texto da mensagem de erro */
@@ -18,8 +21,10 @@
 </style>
 </head>
 <body>
+
 	<!-- componente navbar -->
 	<jsp:include page="/WEB-INF/views/admin/components/navbar.jsp"></jsp:include>
+	
 	
 	<!-- componente messages -->
 	<jsp:include page="/WEB-INF/views/admin/components/messages.jsp"></jsp:include>
